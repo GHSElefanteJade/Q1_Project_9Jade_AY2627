@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Q1 Project</title>
+
+    <style>
+        /* Internal CSS */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f0ff;
+            margin: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #8e7cc3;
+            color: white;
+            text-align: center;
+            padding: 35px;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 17px;
+        }
+
+        .container {
+            width: 85%;
+            margin: 25px auto;
+        }
+
+        .section {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+        }
+
+        h2 {
+            color: #7057a3;
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            display: block;
+            margin: 10px auto;
+        }
+
+        ul, ol, dl {
+            line-height: 1.8;
+        }
+
+        a {
+            color: #7057a3;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .highlight {
+            color: #8e7cc3;
+            font-weight: bold;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input, select, textarea {
+            padding: 10px;
+            margin: 8px 0 15px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        textarea {
+            height: 100px;
+        }
+
+        button {
+            background-color: #8e7cc3;
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #7057a3;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #8e7cc3;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>My Personal Portfolio</h1>
+        <p>Hi! I'm <span class="highlight">Sathara</span>, a student who enjoys learning, creating, and exploring new things.</p>
+    </header>
+
+    <div class="container">
+
+        <!-- Profile Section -->
+        <div class="section">
+            <h2>About Me</h2>
+
+            <!-- Personal logo -->
+            <a href="https://www.w3schools.com/" target="_blank">
+                <img src="https://via.placeholder.com/150" alt="Personal Logo">
+            </a>
+
+            <p>
+                Hello! My name is Sathara. I am a student who enjoys
+                <span class="highlight">music, dancing, technology, and creative projects.</span>
+                This portfolio shows some of the things I have learned and created.
+            </p>
+        </div>
+
+        <!-- Showcased Pages -->
+        <div class="section">
+            <h2>My Showcased Pages</h2>
+
+            <h3>Unordered List</h3>
+            <ul>
+                <li>About Me</li>
+                <li>My Hobbies</li>
+                <li>My Projects</li>
+                <li>Contact Me</li>
+            </ul>
+
+            <h3>Ordered List</h3>
+            <ol>
+                <li>Learn HTML</li>
+                <li>Learn CSS</li>
+                <li>Create a webpage</li>
+                <li>Improve my portfolio</li>
+            </ol>
+
+            <h3>Description List</h3>
+            <dl>
+                <dt><b>HTML</b></dt>
+                <dd>The language used to structure webpages.</dd>
+
+                <dt><b>CSS</b></dt>
+                <dd>The language used to style and design webpages.</dd>
+
+                <dt><b>Portfolio</b></dt>
+                <dd>A collection that shows my work and skills.</dd>
+            </dl>
+        </div>
+
+        <!-- Previous Repositories -->
+        <div class="section">
+            <h2>Previous Repositories</h2>
+
+            <p>
+                You can visit my previous projects here:
+            </p>
+
+            <a href="https://github.com/" target="_blank">
+                Visit My GitHub Repository
+            </a>
+        </div>
+
+        <!-- Hobbies -->
+        <div class="section">
+            <h2>My Interests</h2>
+
+            <ul>
+                <li>🎸 Playing guitar</li>
+                <li>💃 Dancing</li>
+                <li>🎵 Listening to music</li>
+                <li>💻 Technology and coding</li>
+                <li>🚗 Cars</li>
+            </ul>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="section">
+            <h2>Contact Me</h2>
+
+            <form>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+
+                <label for="interest">What are you interested in?</label>
+
+                <select id="interest" name="interest">
+                    <option value="coding">Coding</option>
+                    <option value="music">Music</option>
+                    <option value="dance">Dance</option>
+                    <option value="art">Art</option>
+                </select>
+
+                <label for="feedback">Feedback:</label>
+                <textarea id="feedback" name="feedback" placeholder="Write your feedback here..."></textarea>
+
+                <button type="submit">Submit</button>
+
+            </form>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 My Personal Portfolio | Q1 HTML & CSS Project</p>
+    </footer>
+
+</body>
+</html>
